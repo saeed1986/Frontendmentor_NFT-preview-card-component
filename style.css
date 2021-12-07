@@ -1,0 +1,88 @@
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    padding: 2rem 2rem;
+    margin: 8rem 1rem;
+    border-radius: 1rem;
+}
+
+.bg-img {
+    width: 31.5rem;
+    border-radius: 1rem;
+}
+
+.headline {
+    color: white;
+    padding: 1rem;
+}
+
+.txt-box {
+    color: hsl(215, 32%, 27%);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    color: hsl(215, 51%, 70%);
+    border-bottom: 1px solid red;
+    padding-bottom: 2rem;
+}
+
+.img-holder {
+    width: 5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 5rem;
+}
